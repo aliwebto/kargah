@@ -71,6 +71,10 @@
             box-shadow: 1px 1px 10px #eee;
             border-color: #272727;
         }
+        .title-h{
+            display: block;
+            min-height: 4rem;
+        }
     </style>
 </head>
 
@@ -111,7 +115,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-6">
-                    <h2 class="mt-5">
+                    <h2 class="mt-5 title-h">
                         <span id="title"></span>
                     </h2>
                     <p>
@@ -119,7 +123,8 @@
                         هست که با لاراول کار میکنم . فریمورک لاراول یک فریمورک اختصاصی php برای بک اند هست که سرعت توسعه
                         را بسیار بالا تر میبرد و همچنین با رعایت اصول امنیتی باعث افزایش امنیت وب سایت میشود.
                     </p>
-                    <a href="https://instagram.com/aliwebto" class="btn btn-outline-primary mt-5 ms-2 float-end" data-bs-toggle="tooltip" data-bs-title="ALIWEBTO">
+                    <div class="d-flex justify-content-center justify-content-xl-end">
+                        <a href="https://instagram.com/aliwebto" class="btn btn-outline-primary mt-5 ms-2 float-end" data-bs-toggle="tooltip" data-bs-title="ALIWEBTO">
                         اینستاگرام
                     </a>
                     <a href="https://t.me/alireza_zarei_dev" class="btn btn-outline-info mt-5 ms-2 float-end" data-bs-toggle="tooltip" data-bs-title="alireza_zarei_dev">
@@ -128,6 +133,7 @@
                     <a href="tel:+989177260622" class="btn btn-outline-success mt-5 ms-2 float-end" data-bs-toggle="tooltip" data-bs-title="09177260622">
                         تماس
                     </a>
+                    </div>
                 </div>
                 <div class="col-12 col-xl-6 d-flex justify-content-center align-items-center programmer--img">
                     <img id="img" src="programmer.png" alt="developer img" width="100%">
